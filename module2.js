@@ -36,3 +36,15 @@ $(document).ready(function() {
 
 
 });
+
+class RGBA {
+    constructor(redValue, greenValue, blueValue, alphaValue) {
+        this.red = redValue;
+        this.green = greenValue;
+        this.blue = blueValue;
+        this.alpha = alphaValue;
+    }
+}
+
+var red = new RGBA(255, 0, 0, 1); 1
+console.log(red);
